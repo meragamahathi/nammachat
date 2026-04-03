@@ -1178,8 +1178,8 @@ function appendMessage(msg) {
   row.dataset.msgId = msg.messageId;
 
   const time = msg.timestamp
-    ? new Date(msg.timestamp).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' })    : '';
-
+  ? new Date(msg.timestamp).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' })
+  : '';
   row.innerHTML = `
     <div class="msg-actions">
       <button class="act-btn" title="React" onclick="quickReact('${msg.messageId}')">😊</button>
