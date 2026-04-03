@@ -969,7 +969,7 @@ function init() {
 // ════════════════════════════════════════════════════
 function connectWebSocket() {
   // Connect to Spring Boot WebSocket endpoint using SockJS
-  const socket = new SockJS('http://localhost:8080/ws');
+  const socket = new SockJS(window.location.origin + '/ws');
   stompClient = Stomp.over(socket);
 
   // Suppress STOMP debug logs in production
