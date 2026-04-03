@@ -1,0 +1,8 @@
+com\nammachat\model\ChatMessage$MessageType.class
+com\nammachat\service\ActiveUserService.class
+com\nammachat\model\ActiveUser.class
+com\nammachat\config\WebSocketEventListener.class
+com\nammachat\config\WebSocketConfig.class
+com\nammachat\model\ChatMessage.class
+com\nammachat\controller\ChatController.class
+com\nammachat\NammaChatApplication.class
